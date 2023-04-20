@@ -1,0 +1,31 @@
+.setScreen {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.card-group {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+	background-color: #babfc4;
+	color: black;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.btn-add {
+	background-color: green;
+	border-radius: 2px;
+	padding: 5px 10px;
+	color: white;
+}
+
+.btn-add:hover {
+	background-color: #0a0;
+}
